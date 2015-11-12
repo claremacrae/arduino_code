@@ -1,3 +1,6 @@
+// Wire up Arduino to breadboard, as per
+// http://video.mit.edu/watch/arduino-tutorial-1-10950/
+
 int pin = 12;
 int pause_in_msecs = 1000;
 
