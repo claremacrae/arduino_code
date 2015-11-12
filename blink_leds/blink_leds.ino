@@ -1,12 +1,15 @@
+int pin = 12;
+int pause_in_msecs = 1000;
+
 void setup() {
   // put your setup code here, to run once:
-  pinMode(12, OUTPUT);
+  pinMode(pin, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(12, HIGH);
-  delay(1000); // 1 second
-  digitalWrite(12, LOW);
-  delay(1000);
+  digitalWrite(pin, HIGH);
+  delay(pause_in_msecs); // 1 second
+  digitalWrite(pin, LOW);
+  delay(pause_in_msecs);
 }
